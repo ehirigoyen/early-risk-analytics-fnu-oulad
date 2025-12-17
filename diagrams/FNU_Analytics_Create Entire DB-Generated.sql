@@ -272,3 +272,4 @@ USE [master]
 GO
 ALTER DATABASE [FNU_Analytics] SET  READ_WRITE 
 GO
+
