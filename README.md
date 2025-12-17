@@ -26,24 +26,6 @@ Can early student engagement during the first weeks of a course be used to predi
 
 ## Project Structure
 
-early-risk-analytics-fnu-oulad/
-│
-├─ oulad_fnu_early_risk_capstone.html # Main portfolio report (recommended)
-├─ oulad_fnu_early_risk_capstone.pdf # PDF version
-├─ oulad_fnu_early_risk_capstone.Rmd # R Markdown source
-├─ OULAD_EarlyRisk_Analysis.R # R analysis script
-│
-├─ figures/ # Charts used in the report
-│
-├─ sql/ # SQL scripts to create databases
-│ ├─ FNU_Analytics_Create Entire DB-Generated.sql
-│ └─ OULAD_Analytics_Create Entire DB-Generated.sql
-│
-└─ diagrams/ # Database schema diagrams (PDF)
-├─ Database Diagram - FNU_Analytics.pdf
-└─ Database Diagram - OULAD_Analytics.pdf
-
-
 ---
 
 ## Key Analysis Steps
