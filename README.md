@@ -26,4 +26,50 @@ Can early student engagement during the first weeks of a course be used to predi
 
 ## Project Structure
 
+early-risk-analytics-fnu-oulad/
+│
+├─ oulad_fnu_early_risk_capstone.html # Main portfolio report (recommended)
+├─ oulad_fnu_early_risk_capstone.pdf # PDF version
+├─ oulad_fnu_early_risk_capstone.Rmd # R Markdown source
+├─ OULAD_EarlyRisk_Analysis.R # R analysis script
+│
+├─ figures/ # Charts used in the report
+│
+├─ sql/ # SQL scripts to create databases
+│ ├─ FNU_Analytics_Create Entire DB-Generated.sql
+│ └─ OULAD_Analytics_Create Entire DB-Generated.sql
+│
+└─ diagrams/ # Database schema diagrams (PDF)
+├─ Database Diagram - FNU_Analytics.pdf
+└─ Database Diagram - OULAD_Analytics.pdf
+
+
+---
+
+## Key Analysis Steps
+1. Data engineering and modeling in SQL Server  
+2. Creation of analytical views for reuse  
+3. Early engagement analysis in R  
+4. Early-risk classification (bottom 25% activity)  
+5. Logistic regression to predict pass probability  
+6. Comparison between FNU and OULAD results  
+
+---
+
+## Key Findings
+- Students with **low early engagement** are significantly more likely to fail or withdraw  
+- Early engagement patterns are **consistent across institutions**  
+- Simple early-risk rules can support timely and effective intervention  
+
+---
+
+## Portfolio Report
+👉 **View the full interactive report (HTML):**  
+`oulad_fnu_early_risk_capstone.html`
+
+---
+
+## Author
+**Enrique Hirigoyen**  
+Data Analytics | SQL | R | Excel  
 
