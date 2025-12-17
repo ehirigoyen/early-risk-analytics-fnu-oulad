@@ -265,3 +265,4 @@ USE [master]
 GO
 ALTER DATABASE [OULAD_Analytics] SET  READ_WRITE 
 GO
+
